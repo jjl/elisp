@@ -1,3 +1,9 @@
 [submodule "vendor/coffee-mode"]
 	path = vendor/coffee-mode
 	url = git://github.com/defunkt/coffee-mode.git
+[submodule "vendor/scala-mode.git"]
+	path = vendor/scala-mode.git
+	url = git://github.com/haxney/scala-mode.git
+[submodule "vendor/scala-mode"]
+	path = vendor/scala-mode
+	url = git://github.com/haxney/scala-mode.git
