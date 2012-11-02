@@ -5,13 +5,16 @@
 	(cust-dir (concat elisp-dir "cust/")))
     (add-to-list 'load-path cust-dir)
     (let ((coffee-mode-dir (concat vendor-dir "coffee-mode/"))
-	  (scala-mode-dir (concat vendor-dir "scala-mode/")))
+	  (scala-mode-dir (concat vendor-dir "scala-mode/"))
+	  (php-mode-dir (concat vendor-dir "php-mode/")))
       (add-to-list 'load-path coffee-mode-dir)
-      (add-to-list 'load-path scala-mode-dir))))
+      (add-to-list 'load-path scala-mode-dir)
+      (add-to-list 'load-path php-mode-dir))))
 
 ; Load our customisation modules
 (require 'elisp-coffee-mode)
 (require 'elisp-scala-mode)
+(require 'elisp-php-mode)
 
 ; Setup our automatic loading modes
 (add-to-list 'auto-mode-alist '("\\.coffee\\'" . coffee-mode))

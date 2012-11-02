@@ -7,3 +7,6 @@
 [submodule "vendor/scala-mode"]
 	path = vendor/scala-mode
 	url = git://github.com/haxney/scala-mode.git
+[submodule "vendor/php-mode"]
+	path = vendor/php-mode
+	url = git://github.com/ejmr/php-mode.git

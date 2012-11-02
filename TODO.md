@@ -1,7 +1,6 @@
 Todo list
 ---------
 - https://github.com/aemoncannon/ensime
-- https://github.com/ejmr/php-mode
 - https://github.com/haskell/haskell-mode
 - https://github.com/antonj/scss-mode
 - https://github.com/purcell/less-css-mode
@@ -40,3 +39,19 @@ Todo list
 - https://github.com/senny/rvm.el
 - https://github.com/emacsmirror/rspec-mode
 - https://github.com/jrockway/elisp/tree/master/_local
+- https://github.com/emacsmirror/multiple-cursors
+- https://github.com/emacsmirror/clojure-mode
+- https://github.com/emacsmirror/imenu-plus/blob/master/imenu%2B.el
+- https://github.com/emacsmirror/cc-mode-plus/blob/master/cc-mode%2B.el
+- https://github.com/emacsmirror/tramp
+- https://github.com/emacsmirror/xterm-color
+- https://github.com/emacsmirror/ibuffer-vc
+- https://github.com/emacsmirror/emacspeak
+- https://github.com/emacsmirror/isearch-plus
+- https://github.com/emacsmirror/hide-comnt
+- https://github.com/emacsmirror/hideshowvis
+- https://github.com/emacsmirror/bookmark-plus
+- https://github.com/emacsmirror/websocket
+- https://github.com/emacsmirror/tuareg
+- https://github.com/defunkt/markdown-mode
+- https://github.com/purcell/mmm-mode
