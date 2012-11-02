@@ -19,4 +19,4 @@
 (require 'elisp-js2-mode)
 (require 'elisp-web-mode)
 (require 'elisp-yaml-mode)
-
+(require 'elisp-iswitchb-mode)
