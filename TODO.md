@@ -1,0 +1,42 @@
+Todo list
+---------
+- https://github.com/aemoncannon/ensime
+- https://github.com/ejmr/php-mode
+- https://github.com/haskell/haskell-mode
+- https://github.com/antonj/scss-mode
+- https://github.com/purcell/less-css-mode
+- https://github.com/jrockway/cperl-mode
+- https://github.com/magit/magit
+- https://github.com/mooz/js2-mode
+- http://mihai.bazon.net/projects/editing-javascript-with-emacs-js2-mode
+- https://github.com/fxbois/web-mode
+- https://github.com/nablaone/slime
+- https://github.com/yoshiki/yaml-mode
+- https://github.com/immerrr/lua-mode
+- https://github.com/davorg/tt-mode
+- https://github.com/emacsmirror/chop/blob/master/chop.el
+- https://github.com/emacsmirror/css-mode
+- https://github.com/emacsmirror/ff-paths
+- https://github.com/jrockway/eproject or https://github.com/emacsmirror/projectile
+- https://github.com/jrockway/eslide
+- https://github.com/emacsmirror/htmlize
+- https://github.com/emacsmirror/paredit
+- https://github.com/jrockway/elisp/blob/master/uuidgen.el
+- https://github.com/jrockway/elisp/blob/master/visible-mark.el
+- https://github.com/nschum/window-numbering.el/blob/master/window-numbering.el or https://github.com/emacsmirror/window-number/blob/master/window-number.el
+- https://github.com/emacsmirror/python-mode
+- https://github.com/akaihola/flymake-python
+- https://github.com/aculich/virtualenv.el
+- https://github.com/emacsmirror/skewer-mode
+- https://github.com/emacsmirror/xs-mode
+- https://github.com/emacsmirror/xsl-mode/blob/master/xsl-mode.el
+- https://github.com/emacsmirror/org
+- https://github.com/kiwanami/emacs-deferred
+- https://github.com/kiwanami/emacs-epc
+- https://github.com/kiwanami/emacs-edbi
+- https://github.com/emacsmirror/buffer-timer
+- https://github.com/illusori/emacs-flymake
+- https://github.com/qoobaa/ruby-electric or https://github.com/emacsmirror/ruby-mode
+- https://github.com/senny/rvm.el
+- https://github.com/emacsmirror/rspec-mode
+- https://github.com/jrockway/elisp/tree/master/_local
