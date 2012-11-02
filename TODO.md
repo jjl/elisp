@@ -2,7 +2,6 @@ Todo list
 ---------
 - https://github.com/aemoncannon/ensime
 - https://github.com/magit/magit
-- https://github.com/fxbois/web-mode
 - https://github.com/nablaone/slime
 - https://github.com/yoshiki/yaml-mode
 - https://github.com/immerrr/lua-mode
