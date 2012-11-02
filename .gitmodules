@@ -19,3 +19,6 @@
 [submodule "vendor/less-css-mode"]
 	path = vendor/less-css-mode
 	url = git://github.com/purcell/less-css-mode.git
+[submodule "vendor/cperl-mode"]
+	path = vendor/cperl-mode
+	url = git://github.com/jrockway/cperl-mode.git

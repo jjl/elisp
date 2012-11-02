@@ -1,7 +1,6 @@
 Todo list
 ---------
 - https://github.com/aemoncannon/ensime
-- https://github.com/jrockway/cperl-mode
 - https://github.com/magit/magit
 - https://github.com/mooz/js2-mode
 - http://mihai.bazon.net/projects/editing-javascript-with-emacs-js2-mode

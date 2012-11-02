@@ -15,3 +15,4 @@
 (require 'elisp-haskell-mode)
 (require 'elisp-scss-mode)
 (require 'elisp-less-css-mode)
+(require 'elisp-cperl-mode)
