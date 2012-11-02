@@ -25,3 +25,6 @@
 [submodule "vendor/js2-mode"]
 	path = vendor/js2-mode
 	url = git://github.com/mooz/js2-mode.git
+[submodule "vendor/web-mode"]
+	path = vendor/web-mode
+	url = git://github.com/fxbois/web-mode.git
