@@ -13,3 +13,4 @@
 (require 'elisp-scala-mode)
 (require 'elisp-php-mode)
 (require 'elisp-haskell-mode)
+(require 'elisp-scss-mode)

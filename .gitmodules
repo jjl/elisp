@@ -13,3 +13,6 @@
 [submodule "vendor/haskell-mode"]
 	path = vendor/haskell-mode
 	url = git://github.com/haskell/haskell-mode
+[submodule "vendor/scss-mode"]
+	path = vendor/scss-mode
+	url = git://github.com/antonj/scss-mode.git
