@@ -22,3 +22,6 @@
 [submodule "vendor/cperl-mode"]
 	path = vendor/cperl-mode
 	url = git://github.com/jrockway/cperl-mode.git
+[submodule "vendor/js2-mode"]
+	path = vendor/js2-mode
+	url = git://github.com/mooz/js2-mode.git

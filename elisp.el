@@ -16,3 +16,4 @@
 (require 'elisp-scss-mode)
 (require 'elisp-less-css-mode)
 (require 'elisp-cperl-mode)
+(require 'elisp-js2-mode)
