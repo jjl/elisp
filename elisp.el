@@ -8,6 +8,7 @@
 (add-to-list 'load-path elisp-cust-dir)
 
 ; Load our customisation modules
+(require 'elisp-globals)
 (require 'elisp-coffee-mode)
 (require 'elisp-scala-mode)
 (require 'elisp-php-mode)
