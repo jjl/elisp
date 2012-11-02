@@ -3,7 +3,6 @@ Todo list
 - https://github.com/aemoncannon/ensime
 - https://github.com/magit/magit
 - https://github.com/nablaone/slime
-- https://github.com/yoshiki/yaml-mode
 - https://github.com/immerrr/lua-mode
 - https://github.com/davorg/tt-mode
 - https://github.com/emacsmirror/chop/blob/master/chop.el

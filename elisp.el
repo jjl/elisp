@@ -18,3 +18,4 @@
 (require 'elisp-cperl-mode)
 (require 'elisp-js2-mode)
 (require 'elisp-web-mode)
+(require 'elisp-yaml-mode)
