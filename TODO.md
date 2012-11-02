@@ -1,7 +1,6 @@
 Todo list
 ---------
 - https://github.com/aemoncannon/ensime
-- https://github.com/haskell/haskell-mode
 - https://github.com/antonj/scss-mode
 - https://github.com/purcell/less-css-mode
 - https://github.com/jrockway/cperl-mode
