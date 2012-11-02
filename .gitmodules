@@ -16,3 +16,6 @@
 [submodule "vendor/scss-mode"]
 	path = vendor/scss-mode
 	url = git://github.com/antonj/scss-mode.git
+[submodule "vendor/less-css-mode"]
+	path = vendor/less-css-mode
+	url = git://github.com/purcell/less-css-mode.git
