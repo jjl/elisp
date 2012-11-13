@@ -20,3 +20,4 @@
 (require 'elisp-web-mode)
 (require 'elisp-yaml-mode)
 (require 'elisp-iswitchb-mode)
+(require 'elisp-clojure-mode)

@@ -32,7 +32,6 @@ Todo list
 - https://github.com/emacsmirror/rspec-mode
 - https://github.com/jrockway/elisp/tree/master/_local
 - https://github.com/emacsmirror/multiple-cursors
-- https://github.com/emacsmirror/clojure-mode
 - https://github.com/emacsmirror/imenu-plus/blob/master/imenu%2B.el
 - https://github.com/emacsmirror/cc-mode-plus/blob/master/cc-mode%2B.el
 - https://github.com/emacsmirror/tramp
