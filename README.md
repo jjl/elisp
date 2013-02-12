@@ -28,6 +28,6 @@ How do I use it?
 
 If you understand the warning, you can do this:
 
-    echo '(load "~/code/elisp/elisp.el") > ~/.emacs`
+    echo '(load "~/code/elisp/elisp.el")' > ~/.emacs
 
 This assumes you've checked out this repository as 'elisp' into ~/code
