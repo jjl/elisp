@@ -5,7 +5,6 @@ Todo list
 - https://github.com/nablaone/slime
 - https://github.com/immerrr/lua-mode
 - https://github.com/emacsmirror/chop/blob/master/chop.el
-- https://github.com/emacsmirror/css-mode
 - https://github.com/emacsmirror/ff-paths
 - https://github.com/jrockway/eproject or https://github.com/emacsmirror/projectile
 - https://github.com/jrockway/eslide
