@@ -3,10 +3,11 @@
 (require 'clojure-mode)
 
 ; Hook
-;(defun elisp-clojure-custom ()
-;  "clojure-mode-hook")
+(defun elisp-clojure-custom ()
+  "clojure-mode-hook"
+  (show-paren-mode))
 
-;(add-hook 'clojure-mode-hook '(lambda() (elisp-clojure-custom)))
+(add-hook 'clojure-mode-hook '(lambda() (elisp-clojure-custom)))
 
 ; Auto selection
 (add-to-list 'auto-mode-alist '("\\.clj\\'" . clojure-mode))
