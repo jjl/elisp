@@ -23,3 +23,4 @@
 (require 'elisp-iswitchb-mode)
 (require 'elisp-clojure-mode)
 (require 'elisp-magit)
+(require 'elisp-tt-mode)

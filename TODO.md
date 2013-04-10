@@ -4,7 +4,6 @@ Todo list
 - https://github.com/aemoncannon/ensime
 - https://github.com/nablaone/slime
 - https://github.com/immerrr/lua-mode
-- https://github.com/davorg/tt-mode
 - https://github.com/emacsmirror/chop/blob/master/chop.el
 - https://github.com/emacsmirror/css-mode
 - https://github.com/emacsmirror/ff-paths
