@@ -1,7 +1,6 @@
 Todo list
 ---------
 - https://github.com/aemoncannon/ensime
-- https://github.com/magit/magit
 - https://github.com/nablaone/slime
 - https://github.com/immerrr/lua-mode
 - https://github.com/davorg/tt-mode

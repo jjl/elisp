@@ -34,3 +34,9 @@
 [submodule "vendor/clojure-mode"]
 	path = vendor/clojure-mode
 	url = git://github.com/technomancy/clojure-mode.git
+[submodule "vendor/magit"]
+	path = vendor/magit
+	url = https://github.com/magit/magit.git
+[submodule "vendor/cl-lib"]
+	path = vendor/cl-lib
+	url = https://github.com/emacsmirror/cl-lib.git
