@@ -1,5 +1,6 @@
 Todo list
 ---------
+- https://github.com/magnars/js2-refactor.el
 - https://github.com/aemoncannon/ensime
 - https://github.com/nablaone/slime
 - https://github.com/immerrr/lua-mode
