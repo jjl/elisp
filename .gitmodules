@@ -1,45 +1,45 @@
 [submodule "vendor/coffee-mode"]
 	path = vendor/coffee-mode
-	url = git://github.com/defunkt/coffee-mode.git
-[submodule "vendor/scala-mode.git"]
-	path = vendor/scala-mode.git
-	url = git://github.com/haxney/scala-mode.git
+	url = https://github.com/defunkt/coffee-mode
 [submodule "vendor/scala-mode"]
 	path = vendor/scala-mode
-	url = git://github.com/haxney/scala-mode.git
+	url = https://github.com/haxney/scala-mode
+[submodule "vendor/scala-mode"]
+	path = vendor/scala-mode
+	url = https://github.com/haxney/scala-mode
 [submodule "vendor/php-mode"]
 	path = vendor/php-mode
-	url = git://github.com/ejmr/php-mode.git
+	url = https://github.com/ejmr/php-mode
 [submodule "vendor/haskell-mode"]
 	path = vendor/haskell-mode
-	url = git://github.com/haskell/haskell-mode
+	url = https://github.com/haskell/haskell-mode
 [submodule "vendor/scss-mode"]
 	path = vendor/scss-mode
-	url = git://github.com/antonj/scss-mode.git
+	url = https://github.com/antonj/scss-mode
 [submodule "vendor/less-css-mode"]
 	path = vendor/less-css-mode
-	url = git://github.com/purcell/less-css-mode.git
+	url = https://github.com/purcell/less-css-mode
 [submodule "vendor/cperl-mode"]
 	path = vendor/cperl-mode
-	url = git://github.com/jrockway/cperl-mode.git
+	url = https://github.com/jrockway/cperl-mode
 [submodule "vendor/js2-mode"]
 	path = vendor/js2-mode
-	url = git://github.com/mooz/js2-mode.git
+	url = https://github.com/mooz/js2-mode
 [submodule "vendor/web-mode"]
 	path = vendor/web-mode
-	url = git://github.com/fxbois/web-mode.git
+	url = https://github.com/fxbois/web-mode
 [submodule "vendor/yaml-mode"]
 	path = vendor/yaml-mode
-	url = git://github.com/yoshiki/yaml-mode.git
+	url = https://github.com/yoshiki/yaml-mode
 [submodule "vendor/clojure-mode"]
 	path = vendor/clojure-mode
-	url = git://github.com/technomancy/clojure-mode.git
+	url = https://github.com/technomancy/clojure-mode
 [submodule "vendor/magit"]
 	path = vendor/magit
-	url = https://github.com/magit/magit.git
+	url = https://github.com/magit/magit
 [submodule "vendor/cl-lib"]
 	path = vendor/cl-lib
-	url = https://github.com/emacsmirror/cl-lib.git
+	url = https://github.com/emacsmirror/cl-lib
 [submodule "vendor/tt-mode"]
 	path = vendor/tt-mode
-	url = https://github.com/davorg/tt-mode.git
+	url = https://github.com/davorg/tt-mode
