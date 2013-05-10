@@ -4,9 +4,6 @@
 [submodule "vendor/scala-mode"]
 	path = vendor/scala-mode
 	url = https://github.com/haxney/scala-mode
-[submodule "vendor/scala-mode"]
-	path = vendor/scala-mode
-	url = https://github.com/haxney/scala-mode
 [submodule "vendor/php-mode"]
 	path = vendor/php-mode
 	url = https://github.com/ejmr/php-mode
