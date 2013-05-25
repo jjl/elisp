@@ -5,7 +5,8 @@
 ; Hook
 (defun elisp-js2-custom ()
   "js2-mode-hook"
-  (setq js2-pretty-multiline-declarations t))
+  (setq js2-pretty-multiline-declarations t)
+  (setq js2-basic-offset 2))
 
 (add-hook 'js2-mode-hook '(lambda() (elisp-js2-custom)))
 
