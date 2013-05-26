@@ -28,9 +28,13 @@ How do I use it?
 
 If you understand the warning, you can do this:
 
+    git submodule init
+    git submodule update
     echo '(load "~/code/elisp/elisp.el")' > ~/.emacs
 
-This assumes you've checked out this repository as 'elisp' into ~/code
+This assumes:
+* You've checked out this repo as ~/code/elisp
+* You're sat in that directory at the terminal
 
 Do not merely symlink ~/.emacs to the elisp.el file. It won't work properly
 
