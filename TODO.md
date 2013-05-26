@@ -42,5 +42,7 @@ Todo list
 - https://github.com/emacsmirror/bookmark-plus
 - https://github.com/emacsmirror/websocket
 - https://github.com/emacsmirror/tuareg
-- https://github.com/defunkt/markdown-mode
 - https://github.com/purcell/mmm-mode
+- https://github.com/altercation/solarized/tree/master/emacs-colors-solarized
+- https://github.com/emacsmirror/cedet
+- https://github.com/emacsmirror/ecb

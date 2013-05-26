@@ -40,3 +40,6 @@
 [submodule "vendor/tt-mode"]
 	path = vendor/tt-mode
 	url = https://github.com/davorg/tt-mode
+[submodule "vendor/markdown-mode"]
+	path = vendor/markdown-mode
+	url = https://github.com/defunkt/markdown-mode.git
