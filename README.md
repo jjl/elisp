@@ -31,3 +31,39 @@ If you understand the warning, you can do this:
     echo '(load "~/code/elisp/elisp.el")' > ~/.emacs
 
 This assumes you've checked out this repository as 'elisp' into ~/code
+
+Do not merely symlink ~/.emacs to the elisp.el file. It won't work properly
+
+What language modes do you include?
+-----------------------------------
+
+* Clojure (clojure-mode)
+* Coffeescript (coffee-mode)
+* CSS (css-mode)
+* Haskell (haskell-mode)
+* Javascript (js2-mode)
+* LESS CSS (less-css-mode)
+* Markdown (markdown-mode)
+* Perl (cperl-mode)
+* PHP (php-mode)
+* Scala (scala-mode)
+* SCSS (from Sass) (scss-mode)
+* TT/Template Toolkit (tt-mode)
+* YAML
+
+What other modes do you include?
+--------------------------------
+
+* magit, for controlling a git repo
+* web-mode, which is a poor way of doing code embedded in html. I use this for php and javascript sometimes. I have a view to replacing this with some mmm-mode magic in the future
+
+
+And what miscellaneous libs?
+----------------------------
+
+* cl-lib, a dependency of magit on emacs23
+
+What might be included in future?
+---------------------------------
+
+TODO.md contains a list of things I'm planning to add
