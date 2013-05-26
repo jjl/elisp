@@ -38,6 +38,13 @@ This assumes:
 
 Do not merely symlink ~/.emacs to the elisp.el file. It won't work properly
 
+How do I make it faster?
+------------------------
+
+You'll need an emacs open with a server running. You can m-x server-start inside an emacs session to do that. Then run 'make' in this directory.
+
+You should grep the compilation buffer that opens for 'error' afterwards. I currently count three, two of which are test files and the other of which is magit-inotify, and I haven't installed inotify yet because my primary machine is a mac
+
 What language modes do you include?
 -----------------------------------
 
