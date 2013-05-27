@@ -5,6 +5,8 @@
 (setq tab-width 4)
 ; Turn off the fucking bell
 (setq visible-bell 1)
+; Turn off the startup screen
+(setq inhibit-startup-screen t)
 
 ;This fixes web mode for emacs23. And possibly fixes other modes too
 (unless (fboundp 'prog-mode) (defalias 'prog-mode 'fundamental-mode))
