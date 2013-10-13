@@ -8,7 +8,6 @@
 (add-to-list 'load-path elisp-cust-dir)
 
 ; Load our customisation modules
-(require 'elisp-cl-lib) ; Required for magit and probably others on emacs < 24
 (require 'elisp-globals)
 (require 'elisp-coffee-mode)
 (require 'elisp-scala-mode)

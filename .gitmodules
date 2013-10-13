@@ -34,9 +34,6 @@
 [submodule "vendor/magit"]
 	path = vendor/magit
 	url = https://github.com/magit/magit
-[submodule "vendor/cl-lib"]
-	path = vendor/cl-lib
-	url = https://github.com/emacsmirror/cl-lib
 [submodule "vendor/tt-mode"]
 	path = vendor/tt-mode
 	url = https://github.com/davorg/tt-mode
