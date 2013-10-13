@@ -3,9 +3,10 @@
 (load (concat elisp-vendor-dir "haskell-mode/haskell-site-file"))
 
 ; Hook
-;(defun elisp-haskell-custom ()
-;  "haskell-mode-hook")
+(defun elisp-haskell-custom ()
+  "haskell-mode-hook"
+  (haskell-indent-mode))
   
-;(add-hook 'haskell-mode-hook '(lambda() (elisp-haskell-custom)))
+(add-hook 'haskell-mode-hook '(lambda() (elisp-haskell-custom)))
 
 (provide 'elisp-haskell-mode)
