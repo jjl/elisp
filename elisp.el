@@ -15,12 +15,12 @@
 ; Load our customisation modules
 ;(require 'elisp-globals)
 (require 'coffee-mode-cust)
+(require 'cperl-mode-cust)
 ;(require 'elisp-scala-mode)
 ;(require 'elisp-php-mode)
 ;(require 'elisp-haskell-mode)
 ;(require 'elisp-scss-mode)
 ;(require 'elisp-less-css-mode)
-;(require 'elisp-cperl-mode)
 ;(require 'elisp-js2-mode)
 ;(require 'elisp-web-mode)
 ;(require 'elisp-yaml-mode)
