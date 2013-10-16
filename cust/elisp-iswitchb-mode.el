@@ -4,4 +4,4 @@
 ; Limit to the same frame
 (setq iswitchb-default-method 'samewindow)
 
-(provide 'elisp-iswitchb-mode)
+(provide 'iswitchb-mode-cust)

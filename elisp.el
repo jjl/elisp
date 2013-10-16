@@ -19,7 +19,7 @@
 (require 'cperl-mode-cust)
 (require 'haskell-mode-cust)
 ;(require 'iswitchb-mode-cust)
-;(require 'less-css-mode-cust)
+(require 'less-css-mode-cust)
 ;(require 'js2-mode-cust)
 ;(require 'magit-cust)
 ;(require 'markdown-mode-cust)
