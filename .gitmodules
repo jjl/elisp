@@ -22,9 +22,6 @@
 [submodule "vendor/yaml-mode"]
 	path = vendor/yaml-mode
 	url = https://github.com/yoshiki/yaml-mode
-[submodule "vendor/clojure-mode"]
-	path = vendor/clojure-mode
-	url = https://github.com/technomancy/clojure-mode
 [submodule "vendor/magit"]
 	path = vendor/magit
 	url = https://github.com/magit/magit

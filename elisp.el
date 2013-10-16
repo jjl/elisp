@@ -14,6 +14,7 @@
 
 ; Load our customisation modules
 ;(require 'elisp-globals)
+(require 'clojure-mode-cust)
 (require 'coffee-mode-cust)
 (require 'cperl-mode-cust)
 ;(require 'elisp-scala-mode)
@@ -25,7 +26,6 @@
 ;(require 'elisp-web-mode)
 ;(require 'elisp-yaml-mode)
 ;(require 'elisp-iswitchb-mode)
-;(require 'elisp-clojure-mode)
 ;(require 'elisp-magit)
 ;(require 'elisp-tt-mode)
 ;(require 'elisp-markdown-mode)
