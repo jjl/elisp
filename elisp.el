@@ -1,32 +1,30 @@
 ;Constants we can use in cust code
-(setq elisp-base-dir (file-name-directory (or load-file-name buffer-file-name)))
-(setq elisp-vendor-dir (concat elisp-base-dir "vendor/"))
-(setq elisp-site-dir (concat elisp-base-dir "site/"))
-(setq elisp-cust-dir (concat elisp-base-dir "cust/"))
+(setq jjl-base-dir (file-name-directory (or load-file-name buffer-file-name)))
+(setq jjl-vendor-dir (concat jjl-base-dir "vendor/"))
+(setq jjl-site-dir (concat jjl-base-dir "site/"))
+(setq jjl-cust-dir (concat jjl-base-dir "cust/"))
 
-;Add the cust dir to the list
-(add-to-list 'load-path elisp-cust-dir)
+(add-to-list 'load-path jjl-site-dir) ; Some things will just be individual files in here
+(add-to-list 'load-path jjl-cust-dir) ; Customisations will always be single files
 
-;We've moved to using Cask
-(require 'cask "~/.cask/cask.el")
-(cask-setup elisp-base-dir)
-(epl-initialize)
+(require 'jjl-cask)
 
-; Load our customisation modules
-;(require 'elisp-globals)
-(require 'clojure-mode-cust)
-(require 'coffee-mode-cust)
-(require 'cperl-mode-cust)
-(require 'haskell-mode-cust)
-;(require 'iswitchb-mode-cust)
-(require 'less-css-mode-cust)
-(require 'js2-mode-cust)
-(require 'magit-cust)
-(require 'markdown-mode-cust)
-(require 'php-mode-cust)
-(require 'sass-mode-cust)
-(require 'scala-mode-cust)
-(require 'scss-mode-cust)
-(require 'tt-mode-cust)
-(require 'web-mode-cust)
-(require 'yaml-mode-cust)
+(if jjl-using-cask
+    (progn
+      (require 'clojure-mode-cust)
+      (require 'coffee-mode-cust)
+      (require 'cperl-mode-cust)
+      (require 'haskell-mode-cust)
+;      (require 'iswitchb-mode-cust)
+      (require 'less-css-mode-cust)
+      (require 'js2-mode-cust)
+      (require 'magit-cust)
+      (require 'markdown-mode-cust)
+      (require 'php-mode-cust)
+      (require 'sass-mode-cust)
+      (require 'scala-mode-cust)
+      (require 'scss-mode-cust)
+      (require 'tt-mode-cust)
+      (require 'web-mode-cust)
+      (require 'yaml-mode-cust)
+      t))
