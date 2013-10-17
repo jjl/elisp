@@ -7,7 +7,11 @@
 (add-to-list 'load-path jjl-site-dir) ; Some things will just be individual files in here
 (add-to-list 'load-path jjl-cust-dir) ; Customisations will always be single files
 
+; We've switched to cask
 (require 'jjl-cask)
+
+; These do not require anything that doesn't come in core
+(require 'emacs-cust)
 
 (if jjl-using-cask
     (progn
@@ -15,7 +19,7 @@
       (require 'coffee-mode-cust)
       (require 'cperl-mode-cust)
       (require 'haskell-mode-cust)
-;      (require 'iswitchb-mode-cust)
+      (require 'iswitchb-mode-cust)
       (require 'less-css-mode-cust)
       (require 'js2-mode-cust)
       (require 'magit-cust)
