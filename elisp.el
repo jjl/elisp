@@ -8,12 +8,15 @@
 (add-to-list 'load-path jjl-cust-dir) ; Customisations will always be single files
 
 ; We've switched to cask
-(require 'jjl-cask)
+(require 'auto-cask)
+(setq auto-casked (auto-cask-setup jjl-base-dir))
 
-; These do not require anything that doesn't come in core
+; Things that do not require anything not in emacs 24 core
 (require 'emacs-cust)
+(require 'xmlpp)
 
-(if jjl-using-cask
+; These things require that we have been auto-casked
+(if auto-casked
     (progn
       (require 'clojure-mode-cust)
       (require 'coffee-mode-cust)
