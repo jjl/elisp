@@ -1,6 +1,5 @@
 
-; This tries to find the homebrew cask.el if it is installed
-(defun find-homebrew-cask-el ()
+(defun auto-cask/find-homebrew-cask-el ()
   (let ((prefix "/usr/local/Cellar/cask"))
     (when (file-exists-p prefix)
 	; This will break if cask changes version numbering
@@ -10,16 +9,16 @@
 		(when (file-exists-p filename)
 		    filename)))))))
 
-(defun find-cask-el ()
-  (let ((homebrew-cask-el (find-homebrew-cask-el))
+(defun auto-cask/find-cask-el ()
+  (let ((homebrew-cask-el (auto-cask/find-homebrew-cask-el))
 	(homedir-cask-el "~/.cask/cask.el"))
     (or homebrew-cask-el homedir-cask-el)))
 
-(defun auto-cask-setup (base-dir)
-  (let ((cask-el (find-cask-el)))
+(defun auto-cask/setup (base-dir)
+  (let ((cask-el (auto-cask/find-cask-el)))
     (when cask-el
       (progn
 	(require 'cask cask-el)
-	(cask-setup base-dir)))))
+	(cask-initialize base-dir)))))
 
 (provide 'auto-cask)
