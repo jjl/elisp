@@ -30,6 +30,7 @@
   (require 'sass-mode-cust)
   (require 'scala-mode-cust)
   (require 'scss-mode-cust)
+  (require 'solarized-theme-cust)
   (require 'tt-mode-cust)
   (require 'web-mode-cust)
   (require 'yaml-mode-cust))
