@@ -1,6 +1,6 @@
 ; Auto selection
 (autoload 'js2-mode "js2-mode.el" "JS2 Mode" t)
-(add-to-list 'auto-mode-alist '("\\.js\\'" . js2-mode))
+(al-util/register 'js2-mode ".js")
 
 ; Hook
 (defun js2-mode-custom ()

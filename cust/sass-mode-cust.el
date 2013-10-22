@@ -1,6 +1,6 @@
 ; Auto selection
 (autoload 'scss-mode "sass-mode.el" "sass Mode" t)
-(add-to-list 'auto-mode-alist '("\\.sass\\'" . sass-mode))
+(al-util/register 'sass-mode ".sass")
 
 ; Hook
 (defun sass-mode-custom ()

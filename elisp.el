@@ -12,6 +12,7 @@
 (setq auto-casked (auto-cask/setup jjl/base-dir))
 
 ; Things that do not require anything not in emacs 24 core
+(require 'al-util)
 (require 'emacs-cust)
 (require 'xmlpp)
 

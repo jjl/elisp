@@ -1,6 +1,6 @@
 ; Auto selection
 (autoload 'haskell-mode "haskell-mode.el" "Haskell Mode" t)
-(add-to-list 'auto-mode-alist '("\\.hs\\'" . haskell-mode))
+(al-util/register 'haskell-mode ".hs" ".lhs")
 
 ; Hook
 (defun haskell-mode-custom ()

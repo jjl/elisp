@@ -1,7 +1,6 @@
 ; Auto selection
 (autoload 'yaml-mode "yaml-mode.el" "YAML Mode" t)
-(add-to-list 'auto-mode-alist '("\\.yml\\'" . yaml-mode))
-(add-to-list 'auto-mode-alist '("\\.yaml\\'" . yaml-mode))
+(al-util/register 'yaml-mode ".yml" ".yaml")
 
 ; Hook
 (defun yaml-mode-custom ()

@@ -1,6 +1,6 @@
 ; Auto selection
 (autoload 'less-css-mode "less-css-mode.el" "LESS CSS Mode" t)
-(add-to-list 'auto-mode-alist '("\\.less\\'" . less-css-mode))
+(al-util/register 'less-css-mode ".less")
 
 ; Hook
 (defun less-css-mode-custom ()

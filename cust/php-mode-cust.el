@@ -1,6 +1,6 @@
 ; Auto selection
 (autoload 'php-mode "php-mode.el" "PHP Mode" t)
-(add-to-list 'auto-mode-alist '("\\.php\\'" . php-mode))
+(al-util/register 'php-mode ".php")
 
 ; Hook
 (defun php-mode-custom ()

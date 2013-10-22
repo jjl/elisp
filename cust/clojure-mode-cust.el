@@ -1,6 +1,6 @@
 ; Auto selection
 (autoload 'clojure-mode "clojure-mode.el" "Clojure Mode" t)
-(add-to-list 'auto-mode-alist '("\\.clj\\'" . clojure-mode))
+(al-util/register 'clojure-mode ".clj")
 
 ; Hook
 (defun clojure-mode-custom ()

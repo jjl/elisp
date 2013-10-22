@@ -1,7 +1,6 @@
 ; Auto selection
 (autoload 'coffee-mode "coffee-mode.el" "Coffee Mode" t)
-(add-to-list 'auto-mode-alist '("\\.coffee\\'" . coffee-mode))
-(add-to-list 'auto-mode-alist '("\\Cakefile\\'" . coffee-mode))
+(al-util/register 'coffee-mode ".coffee" ".iced" ".ics" "Cakefile")
 
 ; Hook
 (defun coffee-mode-custom ()

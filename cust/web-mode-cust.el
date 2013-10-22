@@ -1,11 +1,6 @@
 ; Auto selection
 (autoload 'web-mode "web-mode.el" "Web Mode" t)
-(add-to-list 'auto-mode-alist '("\\.html.php\\'" . web-mode))
-(add-to-list 'auto-mode-alist '("\\.phtml\\'" . web-mode))
-(add-to-list 'auto-mode-alist '("\\.tpl.php\\'" . web-mode))
-(add-to-list 'auto-mode-alist '("\\.jsp\\'" . web-mode))
-(add-to-list 'auto-mode-alist '("\\.as[cp]x\\'" . web-mode))
-(add-to-list 'auto-mode-alist '("\\.erb\\'" . web-mode))
+(al-util/register 'web-mode ".html.php" ".phtml" ".tpl.php" ".jsp" ".aspx" ".ascx" ".erb")
 
 ; Hook
 (defun web-mode-custom ()

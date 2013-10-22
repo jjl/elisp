@@ -1,6 +1,6 @@
 ; Auto selection
 (autoload 'scss-mode "scss-mode.el" "scss Mode" t)
-(add-to-list 'auto-mode-alist '("\\.scss\\'" . scss-mode))
+(al-util/register 'scss-mode ".scss")
 
 ; Hook
 (defun scss-mode-custom ()
