@@ -1,15 +1,15 @@
 ;Constants we can use in cust code
-(setq jjl-base-dir (file-name-directory (or load-file-name buffer-file-name)))
-(setq jjl-vendor-dir (concat jjl-base-dir "vendor/"))
-(setq jjl-site-dir (concat jjl-base-dir "site/"))
-(setq jjl-cust-dir (concat jjl-base-dir "cust/"))
+(setq jjl/base-dir (file-name-directory (or load-file-name buffer-file-name)))
+(setq jjl/vendor-dir (concat jjl/base-dir "vendor/"))
+(setq jjl/site-dir (concat jjl/base-dir "site/"))
+(setq jjl/cust-dir (concat jjl/base-dir "cust/"))
 
-(add-to-list 'load-path jjl-site-dir) ; Some things will just be individual files in here
-(add-to-list 'load-path jjl-cust-dir) ; Customisations will always be single files
+(add-to-list 'load-path jjl/site-dir) ; Some things will just be individual files in here
+(add-to-list 'load-path jjl/cust-dir) ; Customisations will always be single files
 
 ; We've switched to cask
 (require 'auto-cask)
-(setq auto-casked (auto-cask-setup jjl-base-dir))
+(setq auto-casked (auto-cask/setup jjl/base-dir))
 
 ; Things that do not require anything not in emacs 24 core
 (require 'emacs-cust)
