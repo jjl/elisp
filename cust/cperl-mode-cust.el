@@ -5,7 +5,8 @@
 ; Hook
 (defun cperl-mode-custom ()
   "cperl-mode-hook"
-  (set (make-local-variable 'tab-width) 4))
+  (set (make-local-variable 'tab-width) 4)
+  (flymake-mode))
 
 (add-hook 'cperl-mode-hook 'cperl-mode-custom)
 
