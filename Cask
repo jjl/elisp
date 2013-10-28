@@ -7,15 +7,14 @@
 (depends-on "ecb" "20130826.1941")
 (depends-on "edbi" "20130809.556")
 (depends-on "epc" "20130804.1428")
+(depends-on "font-utils" "20131022.1154")
+(depends-on "keymap-utils" "20130427.1926")
 (depends-on "websocket" "20130921.2340")
 
 ; Emacs things
 (depends-on "bookmark+" "20131007.2334")
 (depends-on "hide-comnt" "20130725.1547")
-(depends-on "imenu+" "20131011.1550")
-(depends-on "ibuffer-vc" "20130924.1408")
 (depends-on "isearch+" "20131015.2211")
-(depends-on "multiple-cursors" "20131016.1120")
 (depends-on "solarized-theme" "20131016.1212")
 (depends-on "visible-mark" "20080221.651")
 (depends-on "window-number" "20100803.1327")
@@ -24,6 +23,15 @@
 ; Environment things
 (depends-on "rvm" "20130521.902")
 (depends-on "skewer-mode" "20130925.1123")
+
+; Programming related bits
+(depends-on "ecb" "20130826.1941")
+(depends-on "flycheck" "20131026.1341")
+(depends-on "flycheck-color-mode-line" "20130604.2321")
+(depends-on "imenu+" "20131011.1550")
+(depends-on "ibuffer-vc" "20130924.1408")
+(depends-on "multiple-cursors" "20131016.1120")
+(depends-on "string-edit" "20130816.615")
 
 ; Programming modes
 (depends-on "clojure-mode" "20131014.1627")

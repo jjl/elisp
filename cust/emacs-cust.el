@@ -1,3 +1,6 @@
+(require 'jjl-font)
+; Fontage
+;(jjl-font/go)
 ; Turn on syntax highlighting
 (global-font-lock-mode t)
 ; Indentation
@@ -8,4 +11,10 @@
 ; Turn off the startup screen
 (setq inhibit-startup-screen t)
 
+(global-linum-mode)
+
 (provide 'emacs-cust)
+
+
+
+
