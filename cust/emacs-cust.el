@@ -1,6 +1,6 @@
 (require 'jjl-font)
 ; Fontage
-;(jjl-font/go)
+(jjl-font/go)
 ; Turn on syntax highlighting
 (global-font-lock-mode t)
 ; Indentation
