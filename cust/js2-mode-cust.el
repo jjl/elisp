@@ -1,6 +1,6 @@
 ; Auto selection
 (autoload 'js2-mode "js2-mode.el" "JS2 Mode" t)
-(al-util/register 'js2-mode ".js")
+(al-util/register 'js2-mode ".js" ".json")
 
 ; Hook
 (defun js2-mode-custom ()
