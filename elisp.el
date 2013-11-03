@@ -1,8 +1,8 @@
-;Constants we can use in cust code
-(setq jjl/base-dir (file-name-directory (or load-file-name buffer-file-name)))
-(setq jjl/vendor-dir (concat jjl/base-dir "vendor/"))
-(setq jjl/site-dir (concat jjl/base-dir "site/"))
-(setq jjl/cust-dir (concat jjl/base-dir "cust/"))
+; Constants
+(defconst jjl/base-dir (file-name-directory (or load-file-name buffer-file-name)))
+(defconst jjl/vendor-dir (concat jjl/base-dir "vendor/"))
+(defconst jjl/site-dir (concat jjl/base-dir "site/"))
+(defconst jjl/cust-dir (concat jjl/base-dir "cust/"))
 
 (add-to-list 'load-path jjl/site-dir) ; Some things will just be individual files in here
 (add-to-list 'load-path jjl/cust-dir) ; Customisations will always be single files
@@ -21,6 +21,7 @@
   (require 'clojure-mode-cust)
   (require 'coffee-mode-cust)
   (require 'cperl-mode-cust)
+  (require 'flycheck-mode-cust)
   (require 'haskell-mode-cust)
   (require 'iswitchb-mode-cust)
   (require 'less-css-mode-cust)
@@ -35,3 +36,5 @@
   (require 'tt-mode-cust)
   (require 'web-mode-cust)
   (require 'yaml-mode-cust))
+
+(provide 'elisp)
