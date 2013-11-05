@@ -1,0 +1,5 @@
+
+
+
+(load-library "eshell")
+
