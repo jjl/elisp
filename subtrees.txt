@@ -1,0 +1,11 @@
+buffer-timer: https://github.com/emacsmirror/buffer-timer.git
+cc-mode+: https://github.com/emacsmirror/cc-mode-plus.git
+chop: https://github.com/emacsmirror/chop.git
+emacspeak: https://github.com/emacsmirror/emacspeak.git
+eslide: https://github.com/jrockway/eslide.git
+ff-paths: https://github.com/emacsmirror/ff-paths.git
+hideshowvis: https://github.com/emacsmirror/hideshowvis.git
+virtualenv: https://github.com/aculich/virtualenv.el.git
+xs-mode: https://github.com/emacsmirror/xs-mode.git
+xsl-mode: https://github.com/emacsmirror/xsl-mode.git
+xterm-color: https://github.com/emacsmirror/xterm-color.git
