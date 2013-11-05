@@ -1,8 +1,3 @@
-Flymake things that should be modernised
-----------------------------------------
-- https://github.com/akaihola/flymake-python
-- https://github.com/illusori/emacs-flymake
-
 Things that must be manual
 --------------------------
 - https://github.com/aemoncannon/ensime
@@ -48,6 +43,5 @@ To configure list
 - https://github.com/emacsmirror/websocket
 - https://github.com/emacsmirror/tuareg
 - https://github.com/purcell/mmm-mode
-- https://github.com/altercation/solarized/tree/master/emacs-colors-solarized
 - https://github.com/emacsmirror/ecb
 
