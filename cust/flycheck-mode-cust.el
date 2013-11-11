@@ -1,6 +1,6 @@
 (defvar flycheck-checkers) ; Suppress warning
 (defun jjl-flycheck-load-hook ()
-  (require 'flycheck-color-mode-line)
+  (add-hook 'flycheck-mode-hook 'flycheck-cask-setup)
   (add-hook 'flycheck-mode-hook 'flycheck-color-mode-line-mode)
   (setq flycheck-checkers (delq 'emacs-lisp-checkdoc flycheck-checkers)))
 
