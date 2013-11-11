@@ -50,6 +50,7 @@
 (depends-on "paredit" "20130722.1324")
 (depends-on "php-mode" "20130920.1850")
 (depends-on "projectile" "20131016.1148")
+(depends-on "puppet-mode" "20130819.1946")
 (depends-on "ruby-electric" "20131011.531")
 (depends-on "rspec-mode" "20130910.1956")
 (depends-on "sass-mode" "20101019.30")
