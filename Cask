@@ -15,6 +15,7 @@
 (depends-on "bookmark+" "20131007.2334")
 (depends-on "hide-comnt" "20130725.1547")
 (depends-on "isearch+" "20131015.2211")
+(depends-on "powerline" "20131014.215")
 (depends-on "solarized-theme" "20131016.1212")
 (depends-on "visible-mark" "20080221.651")
 (depends-on "window-number" "20100803.1327")
