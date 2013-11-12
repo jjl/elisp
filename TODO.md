@@ -45,3 +45,7 @@ To configure list
 - https://github.com/purcell/mmm-mode
 - https://github.com/emacsmirror/ecb
 
+Things I might want to keymap
+-----------------------------
+(global-set-key (kbd "C-<tab>") 'complete-tag)
+LOADS of magit stuff
