@@ -13,6 +13,7 @@
 
 ; Things that do not require anything not in emacs 24 core
 (require 'al-util)
+(require 'jjl-projects)
 (require 'emacs-cust)
 (require 'xmlpp)
 
@@ -20,6 +21,8 @@
 (when auto-casked
   (require 'emacs-extra-cust)
   (require 'ag-cust)
+  (require 'cedet-cust)
+  (require 'ctags-cust)
   (require 'clojure-mode-cust)
   (require 'coffee-mode-cust)
   (require 'cperl-mode-cust)
