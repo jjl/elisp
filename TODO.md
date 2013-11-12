@@ -1,6 +1,10 @@
 Things that must be manual
 --------------------------
 - https://github.com/aemoncannon/ensime
+- https://github.com/jrockway/elisp/tree/master/_local
+
+To configure list
+---------
 - https://github.com/emacsmirror/chop/blob/master/chop.el
 - https://github.com/emacsmirror/ff-paths
 - https://github.com/jrockway/eslide
@@ -10,13 +14,9 @@ Things that must be manual
 - https://github.com/aculich/virtualenv.el
 - https://github.com/emacsmirror/buffer-timer
 - https://github.com/emacsmirror/cc-mode-plus/blob/master/cc-mode%2B.el
-- https://github.com/jrockway/elisp/tree/master/_local
 - https://github.com/emacsmirror/xterm-color
 - https://github.com/emacsmirror/emacspeak
 - https://github.com/emacsmirror/hideshowvis
-
-To configure list
----------
 - https://github.com/magnars/js2-refactor.el
 - https://github.com/nablaone/slime
 - https://github.com/immerrr/lua-mode
