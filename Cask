@@ -22,6 +22,7 @@
 (depends-on "window-numbering" "20130902.1815")
 
 ; Environment things
+(depends-on "ag" "20131103.1957")
 (depends-on "rvm" "20130521.902")
 (depends-on "skewer-mode" "20130925.1123")
 
