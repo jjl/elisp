@@ -5,6 +5,7 @@ Things that must be manual
 
 To configure list
 ---------
+- flyspell
 - https://github.com/emacsmirror/chop/blob/master/chop.el
 - https://github.com/emacsmirror/ff-paths
 - https://github.com/jrockway/eslide

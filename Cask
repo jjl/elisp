@@ -14,6 +14,7 @@
 
 ; Emacs things
 (depends-on "bookmark+" "20131007.2334")
+(depends-on "flyspell-lazy" "20131106.1006")
 (depends-on "hide-comnt" "20130725.1547")
 (depends-on "isearch+" "20131015.2211")
 (depends-on "powerline" "20131014.215")
