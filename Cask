@@ -3,6 +3,7 @@
 ; Utility libraries
 (depends-on "s" "20130618.1418")
 (depends-on "dash" "20130911.1307")
+(depends-on "dash-functional" "20130831.1646")
 (depends-on "deferred" "20130930.1434")
 (depends-on "ecb" "20130826.1941")
 (depends-on "edbi" "20130809.556")
