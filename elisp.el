@@ -18,6 +18,7 @@
 
 ; These things require that we have been auto-casked
 (when auto-casked
+  (require 'emacs-extra-cust)
   (require 'clojure-mode-cust)
   (require 'coffee-mode-cust)
   (require 'cperl-mode-cust)
