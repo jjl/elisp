@@ -42,6 +42,7 @@
   (require 'solarized-theme-cust)
   (require 'tt-mode-cust)
   (require 'web-mode-cust)
-  (require 'yaml-mode-cust))
+  (require 'yaml-mode-cust)
+  (require 'jjl-movement))
 
 (provide 'elisp)
