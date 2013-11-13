@@ -16,6 +16,7 @@
 (require 'jjl-projects)
 (require 'emacs-cust)
 (require 'xmlpp)
+(require 'jjl-keymap-cust)
 
 ; These things require that we have been auto-casked
 (when auto-casked
@@ -43,6 +44,7 @@
   (require 'tt-mode-cust)
   (require 'web-mode-cust)
   (require 'yaml-mode-cust)
-  (require 'jjl-movement))
+  (require 'jjl-movement)
+  (require 'jjl-keymap-extra-cust))
 
 (provide 'elisp)
