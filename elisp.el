@@ -35,6 +35,7 @@
   (require 'markdown-mode-cust)
   (require 'php-mode-cust)
   (require 'powerline-cust)
+  (require 'rainbow-delimiters-cust)
   (require 'sass-mode-cust)
   (require 'scala-mode-cust)
   (require 'scss-mode-cust)

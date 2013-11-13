@@ -36,6 +36,7 @@
 (depends-on "imenu+" "20131011.1550")
 (depends-on "ibuffer-vc" "20130924.1408")
 (depends-on "multiple-cursors" "20131016.1120")
+(depends-on "rainbow-delimiters" "20131015.1304")
 (depends-on "string-edit" "20130816.615")
 
 ; Programming modes
