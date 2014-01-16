@@ -1,3 +1,4 @@
+git subtree pull --prefix vendor/ac-nrepl-compliment https://github.com/alexander-yakushev/ac-nrepl-compliment.git master --squash
 git subtree pull --prefix vendor/buffer-timer https://github.com/emacsmirror/buffer-timer.git master --squash
 git subtree pull --prefix vendor/cc-mode-plus https://github.com/emacsmirror/cc-mode-plus.git master --squash
 git subtree pull --prefix vendor/chop https://github.com/emacsmirror/chop.git master --squash

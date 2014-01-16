@@ -21,8 +21,11 @@
 ; These things require that we have been auto-casked
 (when auto-casked
   (require 'emacs-extra-cust)
+  (require 'auto-complete-cust)
+  (require 'ac-nrepl-compliment-cust)
   (require 'ag-cust)
   (require 'cedet-cust)
+  (require 'cider-cust)
   (require 'ctags-cust)
   (require 'clojure-mode-cust)
   (require 'coffee-mode-cust)

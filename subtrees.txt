@@ -1,3 +1,4 @@
+ac-nrepl-compliment: https://github.com/alexander-yakushev/ac-nrepl-compliment.git
 buffer-timer: https://github.com/emacsmirror/buffer-timer.git
 cc-mode+: https://github.com/emacsmirror/cc-mode-plus.git
 chop: https://github.com/emacsmirror/chop.git

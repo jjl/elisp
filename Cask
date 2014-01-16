@@ -13,6 +13,7 @@
 (depends-on "websocket" "20130921.2340")
 
 ; Emacs things
+(depends-on "auto-complete" "20131128.233")
 (depends-on "bookmark+" "20131007.2334")
 (depends-on "flyspell-lazy" "20131106.1006")
 (depends-on "hide-comnt" "20130725.1547")
@@ -39,8 +40,11 @@
 (depends-on "rainbow-delimiters" "20131015.1304")
 (depends-on "string-edit" "20130816.615")
 
-; Programming modes
+; Clojure
 (depends-on "clojure-mode" "20131014.1627")
+(depends-on "cider" "20131212.641")
+
+; Misc Programming modes
 (depends-on "coffee-mode" "20130618.1418")
 (depends-on "cperl-mode" "20130716.858")
 (depends-on "eproject" "20130220.1109")
