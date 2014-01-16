@@ -41,6 +41,7 @@
 (depends-on "string-edit" "20130816.615")
 
 ; Clojure
+(depends-on "align-cljlet" "20131016.2356")
 (depends-on "clojure-mode" "20131014.1627")
 (depends-on "cider" "20131212.641")
 

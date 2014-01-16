@@ -10,7 +10,10 @@
   ; I prefer lisp indented with 2 spaces
   (set (make-local-variable 'tab-width) 2)
   ; I like cider
-  (cider-mode))
+  (cider-mode)
+  ; TODO: make this be called on indent and newline
+  (define-key clojure-mode-map (kbd "C-c C-a") 'align-cljlet))
+
 
 
 (add-hook 'clojure-mode-hook 'clojure-mode-custom)
