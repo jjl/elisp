@@ -14,7 +14,9 @@
       (jjl-projects/projectile-project? path)))
 
 (defun jjl-projects/filtered-projects-from (fn path)
-  (-filter fn (directory-files path t)))
+  (if (file-directory-p path)
+      (-filter fn (directory-files path t))
+    '()))
 
 (defun jjl-projects/tags-list ()
   (-mapcat
