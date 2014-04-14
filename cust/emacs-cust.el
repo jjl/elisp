@@ -11,5 +11,9 @@
 (setenv "PATH"
 	(concat "/usr/local/bin"
 		(getenv "PATH")))
-
+; Stop littering the filesystem with temporary files
+(setq backup-directory-alist
+      `((".*" . ,temporary-file-directory)))
+(setq auto-save-file-name-transforms
+      `((".*" ,temporary-file-directory t)))
 (provide 'emacs-cust)
