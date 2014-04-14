@@ -31,6 +31,7 @@
 
 ; Programming related bits
 (depends-on "ecb" "20130826.1941")
+(depends-on "editorconfig" "20131024.119")
 (depends-on "flycheck" "20131026.1341")
 (depends-on "flycheck-cask" "20130818.1153")
 (depends-on "flycheck-color-mode-line" "20130604.2321")
