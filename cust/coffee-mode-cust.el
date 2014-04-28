@@ -5,8 +5,7 @@
 ; Hook
 (defun coffee-mode-custom ()
   "coffee-mode-hook"
-  ; Indent with two spaces. Nodejs gets very nested
-  (set (make-local-variable 'tab-width) 2))
+  (jproject/call-hook 'coffee-mode-hook))
   
 (add-hook 'coffee-mode-hook 'coffee-mode-custom)
 

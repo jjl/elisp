@@ -4,6 +4,7 @@
 
 ; Hook
 (defun php-mode-custom ()
+  (jproject/call-hook 'php-mode-hook)
   "php-mode-hook")
 
 (add-hook 'php-mode-hook 'php-mode-custom)

@@ -5,8 +5,7 @@
 ; Hook
 (defun scss-mode-custom ()
   "scss-mode-hook"
-  ; Turn off automatic compilation since I use it with `compass watch`
-  (setq scss-compile-at-save nil))
+  (jproject/call-hook 'scss-mode-hook))
 
 (add-hook 'scss-mode-hook 'scss-mode-custom)
 

@@ -3,10 +3,10 @@
 (al-util/register 'emacs-lisp-mode ".el" "Cask")
 
 ; Hook
-;(defun emacs-lisp-mode-custom ()
-;  "emacs-lisp-mode-hook")
+(defun emacs-lisp-mode-custom ()
+  (jproject/call-hook 'emacs-lisp-mode-hook))
 ;
-;(add-hook 'emacs-lisp-mode-hook 'emacs-lisp-mode-custom)
+(add-hook 'emacs-lisp-mode-hook 'emacs-lisp-mode-custom)
 
 
 (provide 'emacs-lisp-cust)

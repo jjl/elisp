@@ -1,0 +1,42 @@
+(eval-when-compile (setq jproject/util/run-tests t))
+
+(defun jproject/util/identity (x) x)
+(defun jproject/util/identity-l (&optional x) x)
+
+(defun jproject/util/file-deeply-in-dir? (file dir)
+  (when (and (stringp file) (stringp dir))
+    (s-prefix? (expand-file-name dir) (expand-file-name file))))
+
+(defun jproject/util/types-match? (a b)
+  (eq (type-of a) (type-of b)))
+
+(defun jproject/util/eqv? (a b)
+  (when (not (jproject/util/types-match? a b))
+    (error "Types do not match: %s %s ::(%s %s)" a b (type-of a) (type-of b)))
+  (cond ((null a)    t)
+	((consp a) (and (jproject/util/eqv? (car a) (car b))
+			(jproject/util/eqv? (cdr a) (cdr b))))
+	((numberp a)   (= a b))
+	((symbolp a)   (eq a b))
+        ((stringp a)   (s-equals? a b))
+	((functionp a) (eq a b))
+        (t             (= a b))))
+
+(when jproject/util/run-tests
+  (assert (jproject/util/file-deeply-in-dir? "/foo/bar/baz/quux" "/foo"))
+  (assert (jproject/util/file-deeply-in-dir? "/foo/bar" "/foo"))
+  (assert (jproject/util/file-deeply-in-dir? "/foo/bar" "/foo/bar"))
+  (assert (jproject/util/file-deeply-in-dir? "/foo/bar/baz" "/foo/bar"))
+  (assert (jproject/util/file-deeply-in-dir? "/baz/quux" "/baz"))
+  (assert (not (jproject/util/file-deeply-in-dir? "/foo/bar" "/baz")))
+  (assert (jproject/util/eqv? '(a b c) '(a b c)))
+  (assert (not (jproject/util/eqv? '(a b) '(a c))))
+  (assert (jproject/util/types-match? "foo" "bar"))
+  (assert (jproject/util/types-match? 1 2))
+  (assert (jproject/util/types-match? '(a) '(b)))
+  (assert (not (jproject/util/types-match? '(a) 1)))
+  (assert (not (jproject/util/types-match? '(a) "a")))
+  (assert (not (jproject/util/types-match? "a" 1)))
+  (assert (jproject/util/types-match? 'jproject/util/identity 'jproject/util/identity-l)))
+
+(provide 'jproject-util)

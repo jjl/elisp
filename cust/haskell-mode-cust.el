@@ -5,8 +5,7 @@
 ; Hook
 (defun haskell-mode-custom ()
   "haskell-mode-hook"
-  ; This mode seems to irritate me the least at the minute
-  (haskell-indent-mode))
+  (jproject/call-hook 'haskell-mode-hook))
   
 (add-hook 'haskell-mode-hook 'haskell-mode-custom)
 

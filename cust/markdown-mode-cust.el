@@ -4,7 +4,8 @@
 
 ; Hook
 (defun markdown-mode-custom ()
-  "markdown-mode-hook")
+  "markdown-mode-hook"
+  (jproject/call-hook 'markdown-mode-hook))
 
 (add-hook 'markdown-mode-hook 'markdown-mode-custom)
 

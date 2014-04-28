@@ -4,7 +4,8 @@
 
 ; Hook
 (defun scala-mode-custom ()
-  "scala-mode-hook")
+  "scala-mode-hook"
+  (jproject/call-hook 'scala-mode-hook))
   
 (add-hook 'scala-mode-hook 'scala-mode-custom)
 

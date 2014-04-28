@@ -5,10 +5,8 @@
 ; Hook
 (defun web-mode-custom ()
   "web-mode-hook"
-  (setq web-mode-html-offset 2)
-  (setq web-mode-css-offset 2)
-  (setq web-mode-script-offset 2)
-  (setq web-mode-autocompletes-flag nil))
+  (jproject/call-hook 'web-mode-hook))
+
 
 (add-hook 'web-mode-hook 'web-mode-custom)
 

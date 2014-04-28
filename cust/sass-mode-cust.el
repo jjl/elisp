@@ -5,10 +5,8 @@
 ; Hook
 (defun sass-mode-custom ()
   "sass-mode-hook"
-  ; Turn off automatic compilation since I use it with `compass watch`
-  (setq sass-compile-at-save nil))
+  (jproject/call-hook 'sass-mode-hook))
 
 (add-hook 'sass-mode-hook 'sass-mode-custom)
-
 
 (provide 'sass-mode-cust)

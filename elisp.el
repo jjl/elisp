@@ -15,6 +15,7 @@
 (require 'al-util)
 (require 'jjl-projects)
 (require 'emacs-cust)
+(require 'jproject-cust)
 (require 'xmlpp)
 (require 'jjl-keymap-cust)
 
@@ -30,6 +31,7 @@
   (require 'clojure-mode-cust)
   (require 'coffee-mode-cust)
   (require 'cperl-mode-cust)
+  (require 'emacs-lisp-cust)
   (require 'flycheck-mode-cust)
   (require 'haskell-mode-cust)
   (require 'iswitchb-mode-cust)

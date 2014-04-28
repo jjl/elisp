@@ -4,7 +4,8 @@
 
 ; Hook
 (defun yaml-mode-custom ()
-  "yaml-mode-hook")
+  "yaml-mode-hook"
+  (jproject/call-hook 'yaml-mode-hook))
 
 (add-hook 'yaml-mode-hook 'yaml-mode-custom)
 
