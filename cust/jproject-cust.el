@@ -23,7 +23,9 @@
     "\C-x\C-e" 'pp-eval-last-sexp)
   (eldoc-mode))
 (defun jp/default/js2-mode-hook (h f)
-  (set (make-local-variable 'js2-pretty-multiline-declarations) t))
+  (set (make-local-variable 'js2-pretty-multiline-declarations) t)
+  (set (make-local-variable 'indent-tabs-mode) nil)
+  (set (make-local-variable 'tab-width) 2))
 (defun jp/default/haskell-mode-hook (h f)
   (set (make-local-variable 'tab-width) 2)
   ; This mode seems to irritate me the least at the minute
@@ -65,7 +67,8 @@
       (jproject/util/file-deeply-in-dir? f "/Users/jjl/code/openeyes")))
 (defun jp/openeyes/js2-mode-hook (h f)
   (set (make-local-variable 'indent-tabs-mode) t)
-  (set (make-local-variable 'js2-basic-offset) 2))
+  (set (make-local-variable 'js2-basic-offset) 2)
+  (set (make-local-variable 'tab-width) 2))
 (defun jp/openeyes/php-mode-hook (h f)
   (c-set-style "oe-php"))
 ; setups
